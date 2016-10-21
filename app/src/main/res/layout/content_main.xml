@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sirjm.sirjm.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Time Table"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:id="@+id/tableTextView" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Lesson 1 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/lesson1" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Title :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson1"
+        android:layout_alignLeft="@+id/tableTextView"
+        android:layout_alignStart="@+id/tableTextView"
+        android:layout_marginTop="10dp"
+        android:id="@+id/title1" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Venue :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title1"
+        android:layout_alignLeft="@+id/title1"
+        android:layout_alignStart="@+id/title1"
+        android:layout_marginTop="11dp"
+        android:id="@+id/venue1" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson1Venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/venue1"
+        android:layout_alignLeft="@+id/lesson1Title"
+        android:layout_alignStart="@+id/lesson1Title"
+        android:id="@+id/lesson1Venue" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson1Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lesson1Venue"
+        android:layout_toRightOf="@+id/lesson1Venue"
+        android:layout_toEndOf="@+id/lesson1Venue"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:id="@+id/lesson1Time" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Lesson 2 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/venue1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/lesson2" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Lecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lesson2"
+        android:layout_alignLeft="@+id/lesson1Venue"
+        android:layout_alignStart="@+id/lesson1Venue"
+        android:id="@+id/lesson2Lecturer" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Title :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson2"
+        android:layout_alignLeft="@+id/venue1"
+        android:layout_alignStart="@+id/venue1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/title2" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson2Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/title2"
+        android:layout_alignLeft="@+id/lesson2Lecturer"
+        android:layout_alignStart="@+id/lesson2Lecturer"
+        android:id="@+id/lesson2Title" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Venue :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title2"
+        android:layout_alignLeft="@+id/title2"
+        android:layout_alignStart="@+id/title2"
+        android:layout_marginTop="11dp"
+        android:id="@+id/venue2" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson2Venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/venue2"
+        android:layout_alignLeft="@+id/lesson2Title"
+        android:layout_alignStart="@+id/lesson2Title"
+        android:id="@+id/lesson2Venue" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson2Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lesson2Venue"
+        android:layout_alignLeft="@+id/lesson1Time"
+        android:layout_alignStart="@+id/lesson1Time"
+        android:id="@+id/lesson2Time" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Lesson 3 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/lesson2"
+        android:layout_alignEnd="@+id/lesson2"
+        android:id="@+id/lesson3" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Lecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lesson3"
+        android:layout_alignRight="@+id/lesson2Lecturer"
+        android:layout_alignEnd="@+id/lesson2Lecturer"
+        android:id="@+id/lesson3Lecturer" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Title :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson3"
+        android:layout_alignLeft="@+id/venue2"
+        android:layout_alignStart="@+id/venue2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/title3" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson3Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/title3"
+        android:layout_alignLeft="@+id/lesson3Lecturer"
+        android:layout_alignStart="@+id/lesson3Lecturer"
+        android:id="@+id/lesson3Title" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Venue :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title3"
+        android:layout_alignLeft="@+id/title3"
+        android:layout_alignStart="@+id/title3"
+        android:layout_marginTop="12dp"
+        android:id="@+id/venue3" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson3Venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/venue3"
+        android:layout_alignLeft="@+id/lesson3Title"
+        android:layout_alignStart="@+id/lesson3Title"
+        android:id="@+id/lesson3Venue" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson3Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lesson3Venue"
+        android:layout_alignLeft="@+id/lesson2Time"
+        android:layout_alignStart="@+id/lesson2Time"
+        android:id="@+id/lesson3Time" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Lesson 4 :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/venue3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/lesson4" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Lecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lesson4"
+        android:layout_alignLeft="@+id/lesson3Venue"
+        android:layout_alignStart="@+id/lesson3Venue"
+        android:id="@+id/lesson4Lecturer" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Title :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson4"
+        android:layout_alignLeft="@+id/venue3"
+        android:layout_alignStart="@+id/venue3"
+        android:layout_marginTop="13dp"
+        android:id="@+id/title4" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson4Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/title4"
+        android:layout_alignLeft="@+id/lesson4Lecturer"
+        android:layout_alignStart="@+id/lesson4Lecturer"
+        android:id="@+id/lesson4Title" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Venue :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title4"
+        android:layout_alignLeft="@+id/title4"
+        android:layout_alignStart="@+id/title4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/venue4" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson4Venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/venue4"
+        android:layout_alignLeft="@+id/lesson4Title"
+        android:layout_alignStart="@+id/lesson4Title"
+        android:id="@+id/lesson4Venue" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson4Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lesson4Venue"
+        android:layout_alignLeft="@+id/lesson3Time"
+        android:layout_alignStart="@+id/lesson3Time"
+        android:id="@+id/lesson4Time" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="Lecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lesson1Lecturer"
+        android:layout_above="@+id/title1"
+        android:layout_alignLeft="@+id/lesson1Title"
+        android:layout_alignStart="@+id/lesson1Title" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="lesson1Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lesson1Title"
+        android:layout_alignBaseline="@+id/title1"
+        android:layout_alignBottom="@+id/title1"
+        android:layout_toRightOf="@+id/venue1"
+        android:layout_toEndOf="@+id/venue1"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp" />
+
+    <TextView
+        android:textColor="#FFD700"
+        android:text="Live before you're afraid to die"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/venue4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/motivationView" />
+
+</RelativeLayout>

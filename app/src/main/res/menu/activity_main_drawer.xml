@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:textColor="#ffffff"
+            android:id="@+id/nav_mon"
+            android:title="Monday" />
+        <item
+            android:textColor="#ffffff"
+            android:id="@+id/nav_tue"
+            android:title="Tuesday" />
+        <item
+            android:textColor="#ffffff"
+            android:id="@+id/nav_wed"
+            android:title="Wednesday" />
+        <item
+            android:textColor="#ffffff"
+            android:id="@+id/nav_thur"
+            android:title="Thursday" />
+        <item
+            android:textColor="#ffffff"
+            android:id="@+id/nav_fri"
+            android:title="Friday"/>
+    </group>
+
+    <item
+        android:textColor="#ffffff"
+        android:title="Communicate">
+        <menu>
+            <item
+                android:textColor="#ffffff"
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
